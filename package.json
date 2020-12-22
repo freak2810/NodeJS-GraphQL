@@ -1,26 +1,32 @@
 {
-  "name": "node-rest-api",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "A Simple REST Server built on Node",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
-  "author": "Aditya Manikanth Rao",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/udemy-course-nodejs-complete"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-validator": "^6.7.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.4",
-    "multer": "^1.4.2",
-    "socket.io": "^3.0.4",
-    "uuid": "^8.3.2"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "express-validator": "^5.3.0",
+    "graphql": "^14.0.2",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.2",
+    "multer": "^1.4.0",
+    "socket.io": "^2.1.1",
+    "validator": "^10.8.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^1.18.4"
   }
 }
